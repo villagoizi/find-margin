@@ -1,0 +1,29 @@
+{
+  "name": "find-margin",
+  "version": "1.0.0",
+  "description": "Find margin with picture",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villagoizi/find-margin.git"
+  },
+  "author": "Development Villagoiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villagoizi/find-margin/issues"
+  },
+  "homepage": "https://github.com/villagoizi/find-margin#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.9",
+    "express-handlebars": "^5.1.0",
+    "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
